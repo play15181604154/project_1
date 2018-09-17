@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>搜索页</title>
+	<link rel="stylesheet" type="text/css" href="/css/detail.css">
+	<script type="text/javascript" src="/libs/require.js" data-main="/js/index.js"></script>
+	<script type="text/javascript" src="/libs/jquery-1.11.3.min.js">
+	</script>
+	<script type="text/javascript" src="/module/query.js"></script>
+</head>
+<body>
+	<div id="header"></div>
+	<div class="nav">
+	<div class="wrap">
+		<div class="nav_top">
+			<p class="pp"><a href="javascript:;"><img src="/images/logo.jpg"/></a></p>
+			<div class="center">
+				<div class="search">
+					<p class="p1"><input type="text" placeholder="搜索 汇贾网 商品" id="searchText"></p>
+					<p class="p2"><input type="button" id="btn1"></p>
+				</div>
+				<p class="sp">
+                	<span>热门搜索：</span>
+               		 <a href="javascript:;">家纺</a>
+               		 <a href="javascript:;">食品</a>
+               		 <a href="javascript:;">配件</a>
+               		 <a href="javascript:;">包</a>
+               		 <a href="javascript:;">鞋</a>
+           		 </p>
+           	</div>
+			<div class="shopping">
+				<a href="/html/tottle.html">去购物车清算</a>
+				<div class="sp_num" id="spNum">0</div>
+			</div>
+		</div>
+		<div class="nav_bottom">
+			<div class="menu">
+            <h1>
+                <a class="all">所有商品分类</a>
+            </h1>
+            <ul>
+                <li><a class="home" href="/html/new.html">首页</a></li>
+    			<li class="dz"></li>
+            </ul>
+        </div>
+		</div>
+	</div>
+	<div class="content">
+		<div class="ctop">查询到的所有商品列表详情</div>
+	</div>
+	<ul style="height: 400px;margin-left:20px ">
+		<li id="select_ls"><span id="lsp">编号</span><span id="lsp">名称</span>
+			<span id="lsp">价格</span></li>	
+		<li id="demo"></li>	
+	</ul>
+	<nav aria-label="Page navigation">
+			<ul class="pagination" id="pagination">
+			    
+			</ul>
+		</nav>
+	<div id="footop"></div>
+	<div id="footer"></div>
+</div>
+
+</body>
+</html>

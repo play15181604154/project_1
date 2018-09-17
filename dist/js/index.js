@@ -1,0 +1,1 @@
+"use strict";require(["config"],function(){require(["jquery","header","footop","footer","table","news","login"],function(i,n,t,e,o,r,u){n.init(),t.init(),e.init(),o.init(),r.init()})});

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>注册</title>
+	<link rel="stylesheet" type="text/css" href="/css/detail.css">
+	<script type="text/javascript" src="/libs/require.js" data-main="/js/index.js"></script>
+	<script type="text/javascript" src="/libs/jquery-1.11.3.min.js">
+	</script>
+	<script type="text/javascript" src="/module/register.js"></script>
+</head>
+<body>
+	<div id="header"></div>
+	<form name="form1" method="get" action="/html/login.html" id="form1">
+	<div class="login">
+		<div class="registered_top">
+			<a href=""><img src="/images/logo.jpg"/></a>
+		</div>
+		<div id="warp">
+			<img src="/images/picture.jpg" class="left" />
+			<div class="login-right">
+				<div class="login-right-box">
+					<div class="login-title-shop">
+						<span class="login-title-left">注册账号 </span><span class="login-title-right"> </span>
+					</div>
+					<div class="registered_002">
+						<div class="width_20">
+						</div>
+						<div class="error_001" style="display: none" id="errorMessage">
+						</div>
+						<dl>
+							<dt>帐户名： </dt>
+							<dd>
+								<input type="text" name="user" id="txt" class="ph-label" placeholder="请输入你的用户名" />
+							</dd>
+							<p class="aa">用户名输入不正确</p>
+						</dl>
+
+						<dl>
+							<dt class="login_pwd">密 码：</dt>
+							<dd id="log_password">
+								<input type="password" name="pwd" id="txt3" placeholder="请输入密码"/>
+							</dd>
+							<p class="aa">格式输入不正确</p>
+						</dl>
+						<dl>
+							<dt class="login_pwd">确认密码：</dt>
+							<dd id="log_password">
+								<input type="password" name="pwd1" id="txt4" placeholder="请再次确认密码" />
+							</dd>
+							<p class="aa">与上面密码输入不一致</p>
+						</dl>
+						<dl id="checkCardTal">
+							<dt>验证码： </dt>
+							<dd>
+								<input type="text" name="textfield2" id="checkCard" class="input_73" />
+								<span>
+									<span id="cont" class="s1"></span>
+                                    <br />
+								<span class="look-no-clear"><a href="javascript:" id="change">看不清换一张</a> </span>
+							</dd>
+						</dl>
+						<div class="button_orange">
+							<input type="submit" name="btn" id="btn" class="button_001" value="注     册" />
+						</div>
+					</div>
+			</div>
+		</div>
+	</div>
+</form>
+	<div id="footer"></div>
+</body>
+</html>

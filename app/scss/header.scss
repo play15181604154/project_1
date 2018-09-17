@@ -1,0 +1,87 @@
+#header{
+	width: 100%;
+    height: 35px;
+    line-height: 35px;
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+    background: #f7f7f7;
+	}
+#header .wrap{
+	width: 1200px;
+    margin: 0 auto;
+    height: 35px;
+    line-height: 35px;
+	}
+#header .wrap p{
+	float:left;
+	width: 800px;
+	font-size:12px;
+	}
+#header .wrap p a{
+	color:#ff6500;
+	}
+#header .wrap ul{
+	float:right;
+	width: 366px;
+	font-size:12px;
+	display: flex;
+	justify-content: space-between;
+	}
+#header .wrap .right li{
+	float: left;
+	height: 35px;
+	line-height: 35px;
+}
+#header .wrap .right li a{
+	color: #888;
+}
+#header .wrap .right li a:hover{
+	color: #ff6500;
+}
+#header .wrap .right .l1{
+	position: relative;
+	width: 81px;
+	height: 35px;
+	line-height: 30px;
+	overflow: hidden;
+	display: flex;
+	flex-wrap: wrap;
+	background: url("../images/basic.png") no-repeat 58px 1px;
+}
+#header .wrap .right .l1:hover{
+	overflow: visible;
+	background: url("../images/basic.png") no-repeat 58px -59px;
+}
+#header .wrap .right .l1 a{
+	margin-left: 9px;
+}
+#header .wrap .right .l2{
+	width: 69px;
+	height: 35px;
+}
+#header .wrap .right .l2 span{
+	width: 20px;
+	height: 28px;
+	float: left;
+	background: url("../images/img.jpg") no-repeat 2px 8px;
+}
+#header .wrap .right .l2 a{
+	float: left;
+}
+#header .wrap .right .l3{
+	width: 81px;
+	height: 35px;
+	margin-right: 5px;
+}
+#header .wrap .right .l3 span{
+	width: 12px;
+    height: 11px;
+    float: left;
+    margin-top: 12px;
+    margin-left: 5px;
+    margin-right: 3px;
+	background: url("../images/img.jpg") no-repeat 0 -20px;
+}
+#header .wrap .right .l3 a{
+	float: left;
+}

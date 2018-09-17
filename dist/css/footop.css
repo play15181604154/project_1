@@ -1,0 +1,46 @@
+#footop {
+  width: 100%;
+  height: 119px;
+  margin: 20px auto 0;
+  clear: both; }
+
+#footop .foot {
+  width: 1200px;
+  height: 119px;
+  margin: 0 auto 10px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  clear: both; }
+
+#footop .foot .footul {
+  float: left;
+  border-right: 1px solid #EEEEEE;
+  padding: 20px 0 10px 29px;
+  width: 270px; }
+
+#footop .foot .footul .footone {
+  width: 205px;
+  height: 39px;
+  line-height: 42px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #666666;
+  font-weight: bold;
+  font-family: Arial;
+  background: url(/images/bg.jpg) no-repeat;
+  padding-left: 42px; }
+
+#footop .foot .footul .footli {
+  font-size: 12px;
+  height: 20px;
+  line-height: 20px;
+  width: 90px;
+  float: left;
+  overflow: hidden;
+  padding-left: 44px; }
+
+.foot .footul .footli a {
+  display: block;
+  float: left;
+  color: #666;
+  text-decoration: none; }

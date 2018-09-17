@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>登录</title>
+	<link rel="stylesheet" type="text/css" href="/css/detail.css">
+	<script type="text/javascript" src="/libs/require.js" data-main="/js/login.js"></script>
+	<script type="text/javascript" src="/libs/jquery-1.11.3.min.js">
+	</script>
+	<script type="text/javascript" src="/module/login.js"></script>
+</head>
+<body>
+	<form name="form1" method="get" action="/index.html" id="form1">
+	<div class="login">
+		<div class="registered_top">
+			<a href=""><img src="/images/logo.jpg"/></a>
+		</div>
+		<div id="warp">
+			<img src="/images/picture.jpg" class="left" />
+			<div class="login-right">
+				<div class="login-right-box">
+					<div class="login-title-shop">
+						<span class="login-title-left">登录汇贾商城 </span><span class="login-title-right"> </span>
+					</div>
+					<div class="registered_002">
+						<div class="width_20">
+						</div>
+						<div class="error_001" style="display: none" id="errorMessage">
+						</div>
+						<dl>
+							<dt>帐户名： </dt>
+							<dd>
+								<input type="text" name="user" id="user" class="ph-label" placeholder="手机号/会员名/邮箱" />
+							</dd>
+						</dl>
+						<p class="aa">必须填写用户名</p>
+						<dl>
+							<dt class="login_pwd">密 码：</dt>
+							<dd id="log_password">
+								<input type="password" name="pwd" id="pwd" />
+							</dd>
+						</dl>
+						<p class="aa">必须填写用户名</p>
+						<dl id="checkCardTal">
+							<dt>验证码： </dt>
+							<dd>
+								<input type="text" name="textfield2" id="checkCard" class="input_73" />
+								<span>
+									<span id="cont" class="s1"></span>
+                                    <br />
+								<span class="look-no-clear"><a href="javascript:" id="change">看不清换一张</a> </span>
+							</dd>
+						</dl>
+						<dl>
+							<dt></dt>
+							<dl class="input_safe">
+								<input type="checkbox" id="_oxc_check" class="input_73" />安全控件登录
+							</dl>
+						</dl>
+						<div class="button_orange">
+							<input type="button" name="btn" id="btn" class="button_001" value="登 录" />
+						</div>
+					</div>
+					<div class="login-line-up">
+						<span class="forget_password"><a href="javascript:;">忘记密码？</a></span>
+						<span class="registered_free"><a href="/html/register.html">免费注册</a></span></div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</form>
+	<div id="footer"></div>
+</body>
+</html>

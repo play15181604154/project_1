@@ -1,0 +1,37 @@
+<div class="wrap">
+		<p id="p1" class="left" style="display: block;"><span>你好 欢迎来到汇贾网 ！ 请 </span><a href="/html/login.html">登录</a>&nbsp;&nbsp;&nbsp<a href="/html/register.html">免费注册</a>
+		</p>
+      <p id="p2" class="left" style="display: none;"><span>你好&nbsp;&nbsp; <span id="users" style="font-size: 20px;color: blue">a</span>&nbsp;&nbsp;欢迎来到汇贾网 ！</p>
+		<ul class="right">
+   			<li class="l1"><a href="javascript:">我的汇贾</a>
+   				<a href="javascript:">已买到的商品</a>
+   			</li>
+   			<li class="l1"><a href="javascript:">卖家中心</a>
+   				<a href="javascript:">已卖出的商品</a>
+   				<a href="javascript:">出售中的商品</a>
+   			</li>
+   			<li class="l2"><span></span><a href="javascript:">买家保护</a></li>
+   			<li class="l3"><span></span><a href="javascript:">收藏汇贾</a></li>
+   			<li><a href="javascript:">设为首页</a></li>
+		</ul>
+</div>
+<script type="text/javascript">
+   console.log(document.cookie);
+   var p1=document.getElementById("p1"),
+      p2=document.getElementById("p2"),
+      users=document.getElementById("users");
+   var str = document.cookie;
+   var arr = str.split("; ");
+   if (document.cookie) {
+      for (var i = 0; i < arr.length; i++) {
+         item = arr[i].split("=");
+
+         if (item[0] == "username") {
+            p1.style.display="none";
+            p2.style.display="block";
+            users.innerHTML = item[1];
+         } 
+
+      }
+   }
+</script>
